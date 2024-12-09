@@ -1,13 +1,13 @@
 <CsoundSynthesizer>
 <CsOptions>
--odac -o ../output/hello_csound.mp3
+-odac -o ../output/hello_csound.wav -W
 </CsOptions>
 <CsInstruments>
 sr = 44100 ; sampling rate
 kr = 4410 ; control rate
-ksamps = 32 ; number of samples in a control period (sr/kr)
-nchnls = 2 ; output channeli
-0dbfs = 1 ; sets value of 0 decibels
+ksamps = 32 ;number of samples in a control period (sr/kr)
+nchnls = 2 ;output channeli
+0dbfs = 1 ;sets value of 0 decibels
 
 instr 1
     a1 oscil p4, p5, 1
