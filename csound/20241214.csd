@@ -12,9 +12,9 @@ seed 0
 
 gkBpm init (128 / 60) * 4
 giSin ftgen 1, 0, 1024, 10, 1
-giKick ftgen 1, 0, 0, 1, "samples/kick.wav", 0, 4, 1
-giSnare ftgen 2, 0, 0, 1, "samples/snare.wav", 0, 4, 1
-giMelody ftgen 3, 0, 0, 1, "samples/melody.aiff", 0, 4, 1
+giKick ftgen 1, 0, 0, 1, "../samples/kick.wav", 0, 4, 1
+giSnare ftgen 2, 0, 0, 1, "../samples/snare.wav", 0, 4, 1
+giMelody ftgen 3, 0, 0, 1, "../samples/melody.aiff", 0, 4, 1
 
 schedule "clock", 0, -1
 
